@@ -4,9 +4,7 @@
 
 ### Data Analyst • Data Science • Data Engineering
 
-<p>
-  Turning raw data into structured systems, analytical clarity, and practical intelligence.
-</p>
+<p><em>Turning raw data into structured systems, analytical clarity, and practical intelligence.</em></p>
 
 <p>
   <a href="https://www.linkedin.com/in/libra173/">
@@ -28,19 +26,19 @@
 
 ## About Me
 
-I am an **Information Systems student** working at the intersection of **analytics**, **machine learning**, and **data engineering**.
+I work at the intersection of **analytics**, **machine learning**, and **data engineering**.
 
-My projects focus on transforming **raw, messy inputs** into **structured, usable data** for analysis, modeling, and decision-making.
+Most of my projects begin with **raw, messy, real-world inputs** and move toward **cleaner pipelines, stronger features, and usable outputs**.
 
 I am especially interested in:
-- analytical thinking grounded in real datasets
-- feature engineering and data preprocessing
-- pipeline-oriented project design
+- data preprocessing and feature design
+- forecasting and experimental rigor
+- pipeline-oriented project thinking
 - distributed and streaming-inspired systems
 
 ---
 
-## What I Work With
+## Toolkit
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -66,7 +64,7 @@ I am especially interested in:
 
 ---
 
-## Currently Exploring
+## Currently Deepening
 
 <p>
   <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" />
@@ -81,16 +79,22 @@ I am especially interested in:
 
 ### [VEEPS — Spatio-Temporal Edge AI for V2X Traffic Forecasting](https://github.com/LibraJeager/v2x-spatio-temporal)
 **Graduation Project · Ongoing**
-- Built a research-oriented V2X forecasting workflow that connects **large-scale ETL**, **spatio-temporal feature engineering**, and **edge-side inference**.
-- Processed **13.6 GB** of SUMO floating-car telemetry with a streaming XML pipeline using `iterparse`, keeping memory usage **below 50 MB**.
-- Designed an **XGBoost** forecasting model for **15-minute-ahead congestion prediction** using FDR-based spatio-temporal features.
-- Packaged inference into a **Dockerized RSU-like node** and used **MQTT** for real-time telemetry transport.
 
-**Tech:** `Python` `XGBoost` `Docker` `MQTT` `SUMO` `ETL` `Edge AI`
+**Problem**  
+Forecast traffic congestion **15 minutes ahead** in a V2X setting using **early spatio-temporal signals** instead of reactive speed-only indicators.
 
-<p>
+**System Design**  
+Built a **streaming ETL pipeline** for large-scale SUMO FCD XML, engineered **FDR-based spatio-temporal features**, trained an **XGBoost** model, and deployed inference to a **Dockerized RSU-like edge node** over **MQTT**.
+
+**Result**  
+Processed **13.6 GB** of telemetry with memory usage kept **below 50 MB**, and achieved **R² = 0.8919** for **15-minute-ahead forecasting**.
+
+**Stack**  
+`Python` `XGBoost` `Docker` `MQTT` `SUMO` `ETL` `Edge AI`
+
+<p align="center">
   <a href="https://github.com/LibraJeager/v2x-spatio-temporal">
-    <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LibraJeager&repo=v2x-spatio-temporal&theme=transparent&hide_border=true" />
   </a>
 </p>
 
@@ -98,12 +102,18 @@ I am especially interested in:
 
 ### Beat Classification for Arrhythmia Detection from ECG Signals
 **Graduation Thesis · Ongoing**
-- Built a Python-based high-frequency processing pipeline for **360 Hz ECG signals** from the MIT-BIH Arrhythmia Database.
-- Managed and extracted **110,000+ annotated heartbeats** for downstream experimentation.
-- Developed an automated **R-peak detection preprocessing module** as a core transformation layer.
-- Applied **cross-patient partitioning** to reduce data leakage and improve real-world robustness.
 
-**Tech:** `Python` `Signal Processing` `Preprocessing` `Machine Learning`
+**Problem**  
+Build a reliable beat-classification workflow from **360 Hz ECG signals** while preserving evaluation realism across different patients.
+
+**System Design**  
+Developed a **Python-based high-frequency processing pipeline** for the MIT-BIH Arrhythmia Database, added an automated **R-peak detection preprocessing layer**, and enforced **cross-patient data partitioning** to reduce leakage.
+
+**Result**  
+Managed and extracted **110,000+ annotated heartbeats** and established a stronger preprocessing and evaluation foundation for downstream machine learning.
+
+**Stack**  
+`Python` `Signal Processing` `Preprocessing` `Data Pipeline` `Machine Learning`
 
 > Repository status: **Preparing for upload**
 
@@ -111,11 +121,18 @@ I am especially interested in:
 
 ### Retail Sales Forecasting with Machine Learning
 **Business Data Analysis Course Project · 2025**
-- Designed a data workflow to transform transaction-level records from **35 stores across 7 countries** into daily sales metrics.
-- Implemented cleaning routines for **missing values**, **outlier handling**, and **currency normalization**.
-- Engineered temporal, lag, rolling-statistics, and Fourier-based features for predictive modeling.
 
-**Tech:** `Python` `Pandas` `Feature Engineering` `Forecasting`
+**Problem**  
+Turn noisy, multinational transaction records into a reliable daily dataset for retail sales forecasting.
+
+**System Design**  
+Built a Python workflow to aggregate data from **35 stores across 7 countries**, handled **missing values**, **outliers**, and **currency normalization**, then engineered **temporal, lag, rolling, and Fourier-based features** for modeling.
+
+**Result**  
+Converted raw transaction-level records into a structured forecasting-ready dataset designed for more stable downstream prediction experiments.
+
+**Stack**  
+`Python` `Pandas` `Data Cleaning` `Feature Engineering` `Forecasting`
 
 > Repository status: **Preparing for upload**
 
@@ -124,23 +141,19 @@ I am especially interested in:
 ## GitHub Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=LibraJeager&show_icons=true&hide_border=true&hide=issues&cache_seconds=86400" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LibraJeager&layout=compact&hide_border=true" />
-</div>
-
-<div align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=LibraJeager&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=LibraJeager&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&cache_seconds=86400" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LibraJeager&layout=compact&hide_border=true&theme=transparent&langs_count=6" />
 </div>
 
 ---
 
-## Snapshot
+## Profile Snapshot
 
 - **Education:** University of Information Technology (UIT)
 - **Major:** Information Systems
 - **Current Goal:** Build stronger foundations in data infrastructure, scalable processing, and production-minded project work
 - **Certification:** Google Data Analytics Specialization
-- **English:** TOEIC 775 R&L · 260 S&W
+- **Languages:** Vietnamese · English · Japanese
 
 ---
 
@@ -153,5 +166,5 @@ I am especially interested in:
 </p>
 
 <div align="center">
-  <sub>As new repositories go live, each project card can be upgraded with direct links, demos, and technical highlights.</sub>
+  <sub>More repositories will be added as ongoing work is cleaned, documented, and prepared for release.</sub>
 </div>

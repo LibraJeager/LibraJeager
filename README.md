@@ -56,8 +56,10 @@ I am especially interested in:
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ETL-0F172A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Data_Cleaning-111827?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Feature_Engineering-1F2937?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Time_Series-0B1020?style=for-the-badge" />
 </p>
@@ -76,6 +78,23 @@ I am especially interested in:
 ---
 
 ## Selected Work
+
+### [VEEPS — Spatio-Temporal Edge AI for V2X Traffic Forecasting](https://github.com/LibraJeager/v2x-spatio-temporal)
+**Graduation Project · Ongoing**
+- Built a research-oriented V2X forecasting workflow that connects **large-scale ETL**, **spatio-temporal feature engineering**, and **edge-side inference**.
+- Processed **13.6 GB** of SUMO floating-car telemetry with a streaming XML pipeline using `iterparse`, keeping memory usage **below 50 MB**.
+- Designed an **XGBoost** forecasting model for **15-minute-ahead congestion prediction** using FDR-based spatio-temporal features.
+- Packaged inference into a **Dockerized RSU-like node** and used **MQTT** for real-time telemetry transport.
+
+**Tech:** `Python` `XGBoost` `Docker` `MQTT` `SUMO` `ETL` `Edge AI`
+
+<p>
+  <a href="https://github.com/LibraJeager/v2x-spatio-temporal">
+    <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
 
 ### Beat Classification for Arrhythmia Detection from ECG Signals
 **Graduation Thesis · Ongoing**
@@ -97,18 +116,6 @@ I am especially interested in:
 - Engineered temporal, lag, rolling-statistics, and Fourier-based features for predictive modeling.
 
 **Tech:** `Python` `Pandas` `Feature Engineering` `Forecasting`
-
-> Repository status: **Preparing for upload**
-
----
-
-### Distributed V2X Traffic Congestion Prediction System
-**Academic Project · Ongoing**
-- Simulated multiple vehicle nodes streaming **speed, location, and timestamp** data in real time.
-- Compared **centralized cloud processing** with **edge-first near-source processing**.
-- Evaluated the system using **latency**, **scalability**, and **robustness under simulated data loss**.
-
-**Tech:** `Python` `Distributed Systems` `Streaming Architecture` `Simulation`
 
 > Repository status: **Preparing for upload**
 
@@ -146,5 +153,5 @@ I am especially interested in:
 </p>
 
 <div align="center">
-  <sub>When your repositories are ready, replace each <b>Repository status</b> line with the actual project link.</sub>
+  <sub>As new repositories go live, each project card can be upgraded with direct links, demos, and technical highlights.</sub>
 </div>

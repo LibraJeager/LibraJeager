@@ -94,7 +94,7 @@ Processed **13.6 GB** of telemetry with memory usage kept **below 50 MB**, and a
 
 <p align="center">
   <a href="https://github.com/LibraJeager/v2x-spatio-temporal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LibraJeager&repo=v2x-spatio-temporal&theme=transparent&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LibraJeager&repo=v2x-spatio-temporal&theme=graywhite&hide_border=true" />
   </a>
 </p>
 
@@ -141,8 +141,8 @@ Converted raw transaction-level records into a structured forecasting-ready data
 ## GitHub Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=LibraJeager&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&cache_seconds=86400" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LibraJeager&layout=compact&hide_border=true&theme=transparent&langs_count=6" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=LibraJeager&show_icons=true&hide_border=true&rank_icon=github&theme=graywhite&cache_seconds=86400" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LibraJeager&layout=compact&hide_border=true&theme=graywhite&langs_count=6" />
 </div>
 
 ---

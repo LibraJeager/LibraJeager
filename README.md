@@ -53,15 +53,33 @@ I am especially interested in:
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ETL-0F172A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Feature_Engineering-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Time_Series-0B1020?style=for-the-badge" />
 </p>
 
 ---
 
 ## Selected Work
+
+### [Market Overview Pipeline](https://github.com/LibraJeager/market-pipeline)
+**Data Engineering Project · 2026**
+
+**Problem**  
+Raw stock market data arrives fragmented and unaggregated — one record per ticker per day with no derived metrics. Analysts need a clean, enriched dataset that surfaces trend, volatility, and volume signals across a curated basket of stocks.
+
+**System Design**  
+Built an automated **batch ELT pipeline** that ingests daily OHLCV data for the **S&P 500 top 30 stocks**, loads into PostgreSQL, and transforms through a **dbt layered architecture** (staging → intermediate → mart) — orchestrated by **Apache Airflow** on a daily schedule.
+
+**Result**  
+Processed **7,530 records** across 30 tickers × 251 trading days, producing analytics-ready tables with **daily return, MA7/MA30/MA90, rolling volatility, cumulative return, and volume spike detection** — refreshed automatically every trading day.
+
+**Stack**  
+`Python` `Apache Airflow` `dbt` `PostgreSQL` `Docker` `yfinance` `ETL`
+
+---
 
 ### [VEEPS — Spatio-Temporal Edge AI for V2X Traffic Forecasting](https://github.com/LibraJeager/v2x-spatio-temporal)
 **Graduation Project · Ongoing**
@@ -78,24 +96,9 @@ Processed **13.6 GB** of telemetry with memory usage kept **below 50 MB**, and a
 **Stack**  
 `Python` `XGBoost` `Docker` `MQTT` `SUMO` `ETL` `Edge AI`
 
-<p align="center">
-  <a href="https://github.com/LibraJeager/v2x-spatio-temporal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LibraJeager&repo=v2x-spatio-temporal&theme=graywhite&hide_border=true" />
-  </a>
-</p>
-
 ---
 
 > More repositories are being prepared for release.
-
----
-
-## GitHub Analytics
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=LibraJeager&show_icons=true&hide_border=true&rank_icon=github&theme=graywhite&cache_seconds=86400" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LibraJeager&layout=compact&hide_border=true&theme=graywhite&langs_count=6" />
-</div>
 
 ---
 

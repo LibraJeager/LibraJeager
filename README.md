@@ -64,7 +64,7 @@ I am especially interested in:
 
 ## Selected Work
 
-### [Market Overview Pipeline](https://github.com/LibraJeager/market-pipeline)
+### [S&P500 Daily ELT Pipeline](https://github.com/LibraJeager/market-pipeline)
 **Data Engineering Project · 2026**
 
 **Problem**  

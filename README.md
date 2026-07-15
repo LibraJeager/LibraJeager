@@ -98,6 +98,25 @@ Processed **13.6 GB** of telemetry with memory usage kept **below 50 MB**, and a
 
 ---
 
+### [Beat Classification for Arrhythmia Detection from ECG Signals](https://github.com/LibraJeager/ECG-Hybrid-Domain-Adaptation)
+**Graduation Thesis · Ongoing (final validation phase)**
+
+**Problem**  
+Build a reliable, independently-validated R-peak detection foundation for beat-level ECG classification across heterogeneous adult/pediatric cohorts.
+
+**System Design**  
+Rebuilt a **Pan-Tompkins Hybrid** R-peak detector with **12-lead consensus fusion** (K-vote = 4), and designed a multi-axis validation protocol — tolerance sweep, lead-configuration ablation, and benchmarking against 4 baseline detectors — on the Leipzig ECG database.
+
+**Result**  
+Achieved **96.63% Micro F1 / 94.90% Macro F1** and **9.74 ms** mean localization error at ±50 ms tolerance across all 39 records (115,748 reference beats), outperforming the best baseline detector by 5+ F1 points.
+
+**Stack**  
+`Python` `Signal Processing` `Pan-Tompkins` `Validation Engineering` `Jupyter`
+
+> Team thesis — the above reflects my individual contribution (R-peak detection & validation module). Full scope in the repo README.
+
+---
+
 > More repositories are being prepared for release.
 
 ---
